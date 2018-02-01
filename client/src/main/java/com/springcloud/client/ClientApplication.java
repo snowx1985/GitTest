@@ -23,6 +23,8 @@ public class ClientApplication {
 	@Value("${title}")
 	private String title;
 
+	private String key;
+
 	@Value("${server.port}")
 	String port;
 	@RequestMapping("/hi")
