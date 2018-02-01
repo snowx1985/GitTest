@@ -23,7 +23,7 @@ public class ClientApplication {
 	@Value("${title}")
 	private String title;
 
-	private String key;
+	private String key1;
 
 	@Value("${server.port}")
 	String port;
